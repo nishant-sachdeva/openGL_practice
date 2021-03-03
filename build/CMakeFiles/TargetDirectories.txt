@@ -1,0 +1,3 @@
+/home/jyoti/Hello-World/build/CMakeFiles/rebuild_cache.dir
+/home/jyoti/Hello-World/build/CMakeFiles/edit_cache.dir
+/home/jyoti/Hello-World/build/CMakeFiles/InitGL.dir
