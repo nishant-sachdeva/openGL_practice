@@ -1,7 +1,8 @@
-#include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <glad/glad.h>
 
 #include <stdio.h>
+#include<iostream>
 
 namespace {
    void errorCallback(int error, const char* description) {
@@ -97,6 +98,6 @@ int main(int argc, char* argv[]) {
 
    glfwTerminate();
    // clean/delete all resources that were allocated
-
+   std::cout << glGetString(GL_VERSION) << std::endl; 
    return 0;
 }
